@@ -1,0 +1,60 @@
+5.00
+A man with a hard hat is dancing	
+A man wearing a hard hat is dancing
+
+4.75
+A young child is riding a horse	
+A child is riding a horse
+
+5.00
+A man is feeding a mouse to a snake	
+The man is feeding a mouse to the snake
+
+2.40
+A woman is playing the guitar	
+A man is playing guitar
+
+2.75
+A woman is playing the flute	
+A man is playing a flute
+
+2.615	
+A woman is cutting an onion	
+A man is cutting onions
+
+5.00
+A man is erasing a chalk board	
+The man is erasing the chalk board
+
+2.333	
+A woman is carrying a boy	
+A woman is carrying her baby
+
+3.75
+Three men are playing guitars	
+Three men are on stage playing guitars
+
+5.00
+A woman peels a potato	
+A woman is peeling a potato
+
+3.20
+People are playing cricket	
+Men are playing cricket
+
+1.583	
+A man is playing a guitar	
+A man is playing a flute
+
+5.00
+The cougar is chasing the bear	
+A cougar is chasing a bear
+
+5.00
+The man cut down a tree with an axe	
+A man chops down a tree with an axe
+
+4.909	
+The man is playing the guitar	
+A man is playing a guitar.
+

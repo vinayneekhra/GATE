@@ -1,0 +1,13 @@
+fred:guitar_1
+quant:multiple
+fred:Guitar
+fred:play_1
+fred:man_1
+fred:Play
+3
+fred:Man
+quant:three
+vn.data:Play_26070110
+dul:Event
+dul:hasDataValue
+owl:DataTypeProperty

@@ -1,0 +1,10 @@
+A man wearing a hard hat is dancing
+Kitten is my beloved animal
+fred:animal_1
+fred:Kitten
+fred:person_1
+fred:Person
+fred:BelovedAnimal
+fred:Beloved
+fred:Animal
+dul:Quality

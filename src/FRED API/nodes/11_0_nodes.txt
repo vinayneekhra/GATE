@@ -1,0 +1,9 @@
+fred:play_1
+fred:A_man
+fred:Play
+fred:guitar_1
+dbpedia:Military_Intelligence_Directorate_(Israel)
+vn.data:Play_26070110
+dul:Event
+quant:a
+fred:Guitar

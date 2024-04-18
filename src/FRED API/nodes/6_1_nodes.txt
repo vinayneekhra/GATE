@@ -1,0 +1,14 @@
+fred:erase_1
+fred:board_1
+dbpedia:Eraser
+fred:man_1
+fred:Erase
+fred:ChalkBoard
+fred:chalk_1
+fred:Chalk
+quant:the
+dbpedia:Chalk
+fred:Board
+fred:Man
+vn.data:Erase_10041100
+dul:Event

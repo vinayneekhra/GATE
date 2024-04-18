@@ -1,0 +1,13 @@
+fred:Hard
+dul:Quality
+fred:HardHat
+fred:Hat
+dbpedia:Hard_hat
+fred:hat_1
+quant:a
+fred:dance_1
+fred:A_man
+fred:Dance
+dbpedia:Military_Intelligence_Directorate_(Israel)
+vn.data:Dance_26070110
+dul:Event

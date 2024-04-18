@@ -1,0 +1,13 @@
+fred:tree_1
+fred:axe_1
+fred:Tree
+quant:a
+quant:an
+fred:Axe
+fred:chop_1
+fred:Chop
+fred:A_man
+fred:Down
+vn.data:Chop_18020000
+dul:Event
+dbpedia:Military_Intelligence_Directorate_(Israel)

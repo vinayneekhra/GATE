@@ -1,0 +1,10 @@
+fred:chase_1
+fred:cougar_1
+fred:bear_1
+fred:Chase
+fred:Cougar
+quant:the
+dbpedia:Cougar
+fred:Bear
+vn.data:Chase_51060000
+dul:Event

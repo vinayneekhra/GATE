@@ -1,0 +1,35 @@
+<script>
+  var name = prompt("What is your name?");
+  document.write("<h1>Hello " + name + " it's nice to meet you!</h1>"); 
+  
+  var FredApi = require('fred_api');
+
+  var api = new FredApi.DefaultApi()
+
+  var text = text_example; // {String} The input natural language text.
+
+  var opts = {
+    'prefix': prefix_example, // {String} The prefix used for the namespace of terms introduced by FRED in the output. If not specified fred: is used as default.
+    'namespace': namespace_example, // {String} The namespace used for the terms introduced by FRED in the output. If not specified http://www.ontologydesignpatterns.org/ont/fred/domain.owl# is used as default.
+    'wsd': true, // {Boolean} Perform Word Sense Disambiguation on input terms. By default it is set to false.
+    'wfd': true, // {Boolean} Perform Word Frame Disambiguation on input terms in order to provide alignments to WordNet synsets, WordNet Super-senses and Dolce classes. By default it is set to false.
+    'wfdProfile': wfdProfile_example, // {String} The profile associated with the Word Frame Disambiguation
+    'tense': true, // {Boolean} Include temporal relations between events according to their grammatical tense. By default it is set to false.
+    'roles': true, // {Boolean} Use FrameNet roles into the resulting ontology. By default it is set to false.
+    'textannotation': textannotation_example, // {String} The vocabulary used for annotating the text in RDF. Two possible alternatives are available, i.e. EARMARK and NIF.
+    'semanticSubgraph': true // {Boolean} Generate a RDF which only expresses the semantics of a sentence without additional RDF triples, such as those containing text spans, part-of-speeches, etc. By default it is set to false.
+  };
+
+  var callback = function(error, data, response) {
+    if (error) {
+      console.error(error);
+    } else {
+      console.log('API called successfully.');
+    }
+  };
+  api.stlabToolsFredGet(text, opts, callback);
+
+
+  </script>
+
+  

@@ -1,0 +1,247 @@
+digraph edutella {
+	graph [_draw_="c 9 -#fffffe00 C 7 -#ffffff P 4 0 0 0 297 1084 297 1084 0 ",
+		bb="0,0,1084,297",
+		xdotversion=1.7
+	];
+	node [label="\N"];
+	"fred:Tree"	 [_ldraw_="I 41.05 97 18.91 16 46 -/kore/kore.launchers.standalone/img/circle.png F 14 11 -Times-Roman c 7 -#000000 T 64 101.3 -1 67 9 -fred:\
+Tree S 5 -solid c 7 -#000000 p 4 38 94 38 116 134 116 134 94 ",
+		height=0.5,
+		label=<<table BORDER="1" CELLBORDER="0" CELLSPACING="0"><tr><td><img scale="true" src="/kore/kore.launchers.standalone/img/circle.png" /></td><td port="label">fred:Tree</td></tr></table>>,
+		margin=0,
+		pos="86,105",
+		shape=none,
+		width=1.3333];
+	"dbpedia:Tree"	 [_ldraw_="I 3.05 10 18.91 16 46 -/kore/kore.launchers.standalone/img/circle.png F 14 11 -Times-Roman c 7 -#000000 T 26 14.3 -1 95 12 -dbpedia:\
+Tree S 5 -solid c 7 -#000000 p 4 0 7 0 29 124 29 124 7 ",
+		height=0.5,
+		href="http://dbpedia.org/resource/Tree",
+		label=<<table BORDER="1" CELLBORDER="0" CELLSPACING="0"><tr><td><img scale="true" src="/kore/kore.launchers.standalone/img/circle.png" /></td><td port="label">dbpedia:Tree</td></tr></table>>,
+		margin=0,
+		pos="62,18",
+		shape=none,
+		target=_blank,
+		tooltip="dbpedia:Tree",
+		width=1.7222];
+	"fred:Tree":label -> "dbpedia:Tree":label	 [_draw_="c 7 -#000000 B 4 98 95 98 67.08 79.3 60.89 74.91 38.06 ",
+		_hdraw_="S 5 -solid c 7 -#000000 C 7 -#000000 P 3 78.39 37.64 74 28 71.42 38.28 ",
+		_ldraw_="F 14 11 -Times-Roman c 7 -#000000 T 163 57.8 0 144 19 -owl:equivalentClass ",
+		href="http://www.essepuntato.it/lode/owlapi/http://www.w3.org/2002/07/owl#equivalentClass",
+		label="owl:equivalentClass",
+		lp="163,61.5",
+		pos="e,74,28 98,95 98,67.076 79.295,60.89 74.912,38.061",
+		target=_blank,
+		tooltip="owl:equivalentClass"];
+	"fred:tree_1"	 [_ldraw_="I 233 182 19 19 45 -/kore/kore.launchers.standalone/img/rombo.png F 14 11 -Times-Roman c 7 -#000000 T 256 187.8 -1 80 11 -fred:tree_\
+1 S 5 -solid c 7 -#000000 p 4 229.5 179.5 229.5 204.5 338.5 204.5 338.5 179.5 ",
+		height=0.5,
+		label=<<table BORDER="1" CELLBORDER="0" CELLSPACING="0"><tr><td><img scale="true" src="/kore/kore.launchers.standalone/img/rombo.png" /></td><td port="label">fred:tree_1</td></tr></table>>,
+		margin=0,
+		pos="284,192",
+		shape=none,
+		width=1.5139];
+	"fred:tree_1":label -> "fred:Tree":label	 [_draw_="c 7 -#000000 B 7 296 180 296 129.09 228.72 180.33 184 156 159.25 142.54 163.37 113.34 142.97 106.47 ",
+		_hdraw_="S 5 -solid c 7 -#000000 C 7 -#000000 P 3 143.4 103 133 105 142.38 109.92 ",
+		_ldraw_="F 14 11 -Times-Roman c 7 -#000000 T 213 144.8 0 58 8 -rdf:type ",
+		href="http://www.essepuntato.it/lode/http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+		label="rdf:type",
+		lp="213,148.5",
+		pos="e,133,105 296,180 296,129.09 228.72,180.33 184,156 159.25,142.54 163.37,113.34 142.97,106.47",
+		target=_blank,
+		tooltip="rdf:type"];
+	"fred:axe_1"	 [_ldraw_="I 180 95 19 19 45 -/kore/kore.launchers.standalone/img/rombo.png F 14 11 -Times-Roman c 7 -#000000 T 203 100.8 -1 76 10 -fred:axe_\
+1 S 5 -solid c 7 -#000000 p 4 176.5 92.5 176.5 117.5 281.5 117.5 281.5 92.5 ",
+		height=0.5,
+		label=<<table BORDER="1" CELLBORDER="0" CELLSPACING="0"><tr><td><img scale="true" src="/kore/kore.launchers.standalone/img/rombo.png" /></td><td port="label">fred:axe_1</td></tr></table>>,
+		margin=0,
+		pos="229,105",
+		shape=none,
+		width=1.4583];
+	"fred:tree_1":label -> "fred:axe_1":label	 [_draw_="c 7 -#000000 B 7 296 180 296 159.27 269.27 171.93 256 156 246.32 144.38 242.54 137.93 241.41 126.19 ",
+		_hdraw_="S 5 -solid c 7 -#000000 C 7 -#000000 P 3 244.9 125.85 241 116 237.9 126.13 ",
+		_ldraw_="F 14 11 -Times-Roman c 7 -#000000 T 289 144.8 0 66 9 -fred:with ",
+		label="fred:with",
+		lp="289,148.5",
+		pos="e,241,116 296,180 296,159.27 269.27,171.93 256,156 246.32,144.38 242.54,137.93 241.41,126.19"];
+	"quant:a"	 [_ldraw_="I 303 95 19 19 45 -/kore/kore.launchers.standalone/img/rombo.png F 14 11 -Times-Roman c 7 -#000000 T 326 100.8 -1 55 7 -quant:a \
+S 5 -solid c 7 -#000000 p 4 300 92.5 300 117.5 384 117.5 384 92.5 ",
+		height=0.5,
+		label=<<table BORDER="1" CELLBORDER="0" CELLSPACING="0"><tr><td><img scale="true" src="/kore/kore.launchers.standalone/img/rombo.png" /></td><td port="label">quant:a</td></tr></table>>,
+		margin=0,
+		pos="342,105",
+		shape=none,
+		width=1.1667];
+	"fred:tree_1":label -> "quant:a":label	 [_draw_="c 7 -#000000 B 7 338 191 360.44 191 339.62 162.78 345 141 346.77 133.83 349.84 130.47 351.9 126.08 ",
+		_hdraw_="S 5 -solid c 7 -#000000 C 7 -#000000 P 3 355.39 126.5 354 116 348.53 125.08 ",
+		_ldraw_="F 14 11 -Times-Roman c 7 -#000000 T 422 144.8 0 154 19 -quant:hasDeterminer ",
+		label="quant:hasDeterminer",
+		lp="422,148.5",
+		pos="e,354,116 338,191 360.44,191 339.62,162.78 345,141 346.77,133.83 349.84,130.47 351.9,126.08"];
+	"quant:an"	 [_ldraw_="I 186 8 19 19 45 -/kore/kore.launchers.standalone/img/rombo.png F 14 11 -Times-Roman c 7 -#000000 T 209 13.8 -1 64 8 -quant:an S \
+5 -solid c 7 -#000000 p 4 182.5 5.5 182.5 30.5 275.5 30.5 275.5 5.5 ",
+		height=0.5,
+		label=<<table BORDER="1" CELLBORDER="0" CELLSPACING="0"><tr><td><img scale="true" src="/kore/kore.launchers.standalone/img/rombo.png" /></td><td port="label">quant:an</td></tr></table>>,
+		margin=0,
+		pos="229,18",
+		shape=none,
+		width=1.2917];
+	"fred:axe_1":label -> "quant:an":label	 [_draw_="c 7 -#000000 B 4 241 93 241 68.22 241 59.63 241 39.03 ",
+		_hdraw_="S 5 -solid c 7 -#000000 C 7 -#000000 P 3 244.5 39 241 29 237.5 39 ",
+		_ldraw_="F 14 11 -Times-Roman c 7 -#000000 T 318 57.8 0 154 19 -quant:hasDeterminer ",
+		label="quant:hasDeterminer",
+		lp="318,61.5",
+		pos="e,241,29 241,93 241,68.222 241,59.632 241,39.028"];
+	"fred:Axe"	 [_ldraw_="I 364.05 10 18.91 16 46 -/kore/kore.launchers.standalone/img/circle.png F 14 11 -Times-Roman c 7 -#000000 T 387 14.3 -1 61 8 -fred:\
+Axe S 5 -solid c 7 -#000000 p 4 361 7 361 29 451 29 451 7 ",
+		height=0.5,
+		label=<<table BORDER="1" CELLBORDER="0" CELLSPACING="0"><tr><td><img scale="true" src="/kore/kore.launchers.standalone/img/circle.png" /></td><td port="label">fred:Axe</td></tr></table>>,
+		margin=0,
+		pos="406,18",
+		shape=none,
+		width=1.25];
+	"fred:axe_1":label -> "fred:Axe":label	 [_draw_="c 7 -#000000 B 10 281 104 289.77 104 283.79 91.98 291 87 329.96 60.09 357.58 96.67 396 69 409.77 59.09 415.75 51.76 417.46 38.04 ",
+		_hdraw_="S 5 -solid c 7 -#000000 C 7 -#000000 P 3 420.96 38.17 418 28 413.97 37.8 ",
+		_ldraw_="F 14 11 -Times-Roman c 7 -#000000 T 441 57.8 0 58 8 -rdf:type ",
+		href="http://www.essepuntato.it/lode/http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+		label="rdf:type",
+		lp="441,61.5",
+		pos="e,418,28 281,104 289.77,104 283.79,91.982 291,87 329.96,60.093 357.58,96.666 396,69 409.77,59.088 415.75,51.764 417.46,38.037",
+		target=_blank,
+		tooltip="rdf:type"];
+	"fred:Cut"	 [_ldraw_="I 634.05 184 18.91 16 46 -/kore/kore.launchers.standalone/img/circle.png F 14 11 -Times-Roman c 7 -#000000 T 657 188.3 -1 61 8 -fred:\
+Cut S 5 -solid c 7 -#000000 p 4 631 181 631 203 721 203 721 181 ",
+		height=0.5,
+		label=<<table BORDER="1" CELLBORDER="0" CELLSPACING="0"><tr><td><img scale="true" src="/kore/kore.launchers.standalone/img/circle.png" /></td><td port="label">fred:Cut</td></tr></table>>,
+		margin=0,
+		pos="676,192",
+		shape=none,
+		width=1.25];
+	"vn.data:Cut_21010100"	 [_ldraw_="I 416.05 97 18.91 16 46 -/kore/kore.launchers.standalone/img/circle.png F 14 11 -Times-Roman c 7 -#000000 T 439 101.3 -1 164 20 \
+-vn.data:Cut_21010100 S 5 -solid c 7 -#000000 p 4 412.5 94 412.5 116 605.5 116 605.5 94 ",
+		height=0.5,
+		label=<<table BORDER="1" CELLBORDER="0" CELLSPACING="0"><tr><td><img scale="true" src="/kore/kore.launchers.standalone/img/circle.png" /></td><td port="label">vn.data:Cut_21010100</td></tr></table>>,
+		margin=0,
+		pos="509,105",
+		shape=none,
+		width=2.6806];
+	"fred:Cut":label -> "vn.data:Cut_21010100":label	 [_draw_="c 7 -#000000 B 7 688 182 688 148.61 566.47 176.35 540 156 527.06 146.05 522.61 138.46 521.39 125.19 ",
+		_hdraw_="S 5 -solid c 7 -#000000 C 7 -#000000 P 3 524.88 124.86 521 115 517.88 125.13 ",
+		_ldraw_="F 14 11 -Times-Roman c 7 -#000000 T 612 144.8 0 144 19 -owl:equivalentClass ",
+		href="http://www.essepuntato.it/lode/owlapi/http://www.w3.org/2002/07/owl#equivalentClass",
+		label="owl:equivalentClass",
+		lp="612,148.5",
+		pos="e,521,115 688,182 688,148.61 566.47,176.35 540,156 527.06,146.05 522.61,138.46 521.39,125.19",
+		target=_blank,
+		tooltip="owl:equivalentClass"];
+	"dul:Event"	 [_ldraw_="I 630.05 97 18.91 16 46 -/kore/kore.launchers.standalone/img/circle.png F 14 11 -Times-Roman c 7 -#000000 T 653 101.3 -1 70 9 -dul:\
+Event S 5 -solid c 7 -#000000 p 4 626.5 94 626.5 116 725.5 116 725.5 94 ",
+		height=0.5,
+		href="http://www.essepuntato.it/lode/owlapi/http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event",
+		label=<<table BORDER="1" CELLBORDER="0" CELLSPACING="0"><tr><td><img scale="true" src="/kore/kore.launchers.standalone/img/circle.png" /></td><td port="label">dul:Event</td></tr></table>>,
+		margin=0,
+		pos="676,105",
+		shape=none,
+		target=_blank,
+		tooltip="dul:Event",
+		width=1.375];
+	"fred:Cut":label -> "dul:Event":label	 [_draw_="c 7 -#000000 B 4 688 182 688 155.94 688 146.99 688 125.21 ",
+		_hdraw_="S 5 -solid c 7 -#000000 C 7 -#000000 P 3 691.5 125 688 115 684.5 125 ",
+		_ldraw_="F 14 11 -Times-Roman c 7 -#000000 T 745.5 144.8 0 115 15 -rdfs:subClassOf ",
+		href="http://www.essepuntato.it/lode/owlapi/http://www.w3.org/2000/01/rdf-schema#subClassOf",
+		label="rdfs:subClassOf",
+		lp="745.5,148.5",
+		pos="e,688,115 688,182 688,155.94 688,146.99 688,125.21",
+		target=_blank,
+		tooltip="rdfs:subClassOf"];
+	"fred:man_1"	 [_ldraw_="I 752 182 19 19 45 -/kore/kore.launchers.standalone/img/rombo.png F 14 11 -Times-Roman c 7 -#000000 T 775 187.8 -1 82 10 -fred:man_\
+1 S 5 -solid c 7 -#000000 p 4 748.5 179.5 748.5 204.5 859.5 204.5 859.5 179.5 ",
+		height=0.5,
+		label=<<table BORDER="1" CELLBORDER="0" CELLSPACING="0"><tr><td><img scale="true" src="/kore/kore.launchers.standalone/img/rombo.png" /></td><td port="label">fred:man_1</td></tr></table>>,
+		margin=0,
+		pos="804,192",
+		shape=none,
+		width=1.5417];
+	"fred:Man"	 [_ldraw_="I 770.05 97 18.91 16 46 -/kore/kore.launchers.standalone/img/circle.png F 14 11 -Times-Roman c 7 -#000000 T 793 101.3 -1 66 8 -fred:\
+Man S 5 -solid c 7 -#000000 p 4 766.5 94 766.5 116 861.5 116 861.5 94 ",
+		height=0.5,
+		label=<<table BORDER="1" CELLBORDER="0" CELLSPACING="0"><tr><td><img scale="true" src="/kore/kore.launchers.standalone/img/circle.png" /></td><td port="label">fred:Man</td></tr></table>>,
+		margin=0,
+		pos="814,105",
+		shape=none,
+		width=1.3194];
+	"fred:man_1":label -> "fred:Man":label	 [_draw_="c 7 -#000000 B 4 816 180 816 154.54 823.59 146.29 825.54 125.27 ",
+		_hdraw_="S 5 -solid c 7 -#000000 C 7 -#000000 P 3 829.05 125.15 826 115 822.06 124.83 ",
+		_ldraw_="F 14 11 -Times-Roman c 7 -#000000 T 852 144.8 0 58 8 -rdf:type ",
+		href="http://www.essepuntato.it/lode/http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+		label="rdf:type",
+		lp="852,148.5",
+		pos="e,826,115 816,180 816,154.54 823.59,146.29 825.54,125.27",
+		target=_blank,
+		tooltip="rdf:type"];
+	"quant:the"	 [_ldraw_="I 883 95 19 19 45 -/kore/kore.launchers.standalone/img/rombo.png F 14 11 -Times-Roman c 7 -#000000 T 906 100.8 -1 70 9 -quant:the \
+S 5 -solid c 7 -#000000 p 4 879.5 92.5 879.5 117.5 978.5 117.5 978.5 92.5 ",
+		height=0.5,
+		label=<<table BORDER="1" CELLBORDER="0" CELLSPACING="0"><tr><td><img scale="true" src="/kore/kore.launchers.standalone/img/rombo.png" /></td><td port="label">quant:the</td></tr></table>>,
+		margin=0,
+		pos="929,105",
+		shape=none,
+		width=1.375];
+	"fred:man_1":label -> "quant:the":label	 [_draw_="c 7 -#000000 B 7 859 191 867.77 191 863.27 180.64 869 174 893.34 145.81 932.7 154.83 939.86 126.18 ",
+		_hdraw_="S 5 -solid c 7 -#000000 C 7 -#000000 P 3 943.37 126.33 941 116 936.41 125.55 ",
+		_ldraw_="F 14 11 -Times-Roman c 7 -#000000 T 1007 144.8 0 154 19 -quant:hasDeterminer ",
+		label="quant:hasDeterminer",
+		lp="1007,148.5",
+		pos="e,941,116 859,191 867.77,191 863.27,180.64 869,174 893.34,145.81 932.7,154.83 939.86,126.18"];
+	"fred:cut_1"	 [_ldraw_="I 689 269 19 19 45 -/kore/kore.launchers.standalone/img/rombo.png F 14 11 -Times-Roman c 7 -#000000 T 712 274.8 -1 74 10 -fred:cut_\
+1 S 5 -solid c 7 -#000000 p 4 685.5 266.5 685.5 291.5 788.5 291.5 788.5 266.5 ",
+		height=0.5,
+		label=<<table BORDER="1" CELLBORDER="0" CELLSPACING="0"><tr><td><img scale="true" src="/kore/kore.launchers.standalone/img/rombo.png" /></td><td port="label">fred:cut_1</td></tr></table>>,
+		margin=0,
+		pos="737,279",
+		shape=none,
+		width=1.4306];
+	"fred:cut_1":label -> "fred:tree_1":label	 [_draw_="c 7 -#000000 B 7 749 267 749 231.49 625.96 249.24 591 243 481.41 223.43 454.4 192.92 348.18 191.09 ",
+		_hdraw_="S 5 -solid c 7 -#000000 C 7 -#000000 P 3 348.03 187.58 338 191 347.97 194.58 ",
+		_ldraw_="F 14 11 -Times-Roman c 7 -#000000 T 644 231.8 0 106 15 -vn.role:Patient ",
+		href="http://www.essepuntato.it/lode/http://www.ontologydesignpatterns.org/ont/vn/abox/role/vnrole.owl#Patient",
+		label="vn.role:Patient",
+		lp="644,235.5",
+		pos="e,338,191 749,267 749,231.49 625.96,249.24 591,243 481.41,223.43 454.4,192.92 348.18,191.09",
+		target=_blank,
+		tooltip="vn.role:Patient"];
+	"fred:cut_1":label -> "fred:Cut":label	 [_draw_="c 7 -#000000 B 7 749 267 749 249.22 729.39 255.74 717 243 704.24 229.87 692.9 225.71 689.24 212.32 ",
+		_hdraw_="S 5 -solid c 7 -#000000 C 7 -#000000 P 3 692.66 211.51 688 202 685.71 212.35 ",
+		_ldraw_="F 14 11 -Times-Roman c 7 -#000000 T 746 231.8 0 58 8 -rdf:type ",
+		href="http://www.essepuntato.it/lode/http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+		label="rdf:type",
+		lp="746,235.5",
+		pos="e,688,202 749,267 749,249.22 729.39,255.74 717,243 704.24,229.87 692.9,225.71 689.24,212.32",
+		target=_blank,
+		tooltip="rdf:type"];
+	"fred:cut_1":label -> "fred:man_1":label	 [_draw_="c 7 -#000000 B 4 788 278 820.24 278 817.04 245.63 816.16 213.07 ",
+		_hdraw_="S 5 -solid c 7 -#000000 C 7 -#000000 P 3 819.66 212.94 816 203 812.66 213.05 ",
+		_ldraw_="F 14 11 -Times-Roman c 7 -#000000 T 865.5 231.8 0 97 13 -vn.role:Agent ",
+		href="http://www.essepuntato.it/lode/http://www.ontologydesignpatterns.org/ont/vn/abox/role/vnrole.owl#Agent",
+		label="vn.role:Agent",
+		lp="865.5,235.5",
+		pos="e,816,203 788,278 820.24,278 817.04,245.63 816.16,213.07",
+		target=_blank,
+		tooltip="vn.role:Agent"];
+	"fred:Down"	 [_ldraw_="I 881 182 19 19 45 -/kore/kore.launchers.standalone/img/rombo.png F 14 11 -Times-Roman c 7 -#000000 T 904 187.8 -1 75 9 -fred:Down \
+S 5 -solid c 7 -#000000 p 4 878 179.5 878 204.5 982 204.5 982 179.5 ",
+		height=0.5,
+		label=<<table BORDER="1" CELLBORDER="0" CELLSPACING="0"><tr><td><img scale="true" src="/kore/kore.launchers.standalone/img/rombo.png" /></td><td port="label">fred:Down</td></tr></table>>,
+		margin=0,
+		pos="930,192",
+		shape=none,
+		width=1.4444];
+	"fred:cut_1":label -> "fred:Down":label	 [_draw_="c 7 -#000000 B 7 788 278 817.92 278 894.12 261.03 918 243 931.44 232.85 938.89 226.47 941.2 213.32 ",
+		_hdraw_="S 5 -solid c 7 -#000000 C 7 -#000000 P 3 944.72 213.24 942 203 937.74 212.7 ",
+		_ldraw_="F 14 11 -Times-Roman c 7 -#000000 T 987.5 231.8 0 105 14 -dul:hasQuality ",
+		href="http://www.essepuntato.it/lode/owlapi/http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasQuality",
+		label="dul:hasQuality",
+		lp="987.5,235.5",
+		pos="e,942,203 788,278 817.92,278 894.12,261.03 918,243 931.44,232.85 938.89,226.47 941.2,213.32",
+		target=_blank,
+		tooltip="dul:hasQuality"];
+}

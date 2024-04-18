@@ -1,0 +1,16 @@
+fred:wear_1
+fred:A_man
+fred:Wear
+fred:hat_1
+dbpedia:Military_Intelligence_Directorate_(Israel)
+fred:Hard
+dul:Quality
+dul:Event
+vn.data:Wear_10041100
+fred:HardHat
+fred:Hat
+dbpedia:Hard_hat
+quant:a
+fred:dance_1
+fred:Dance
+vn.data:Dance_26070110

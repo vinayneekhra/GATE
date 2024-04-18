@@ -1,0 +1,15 @@
+fred:Tree
+dbpedia:Tree
+fred:tree_1
+fred:axe_1
+quant:a
+quant:an
+fred:Axe
+fred:Cut
+vn.data:Cut_21010100
+dul:Event
+fred:man_1
+fred:Man
+quant:the
+fred:cut_1
+fred:Down

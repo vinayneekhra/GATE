@@ -1,0 +1,18 @@
+fred:dance_1
+fred:A_man
+fred:dance
+fred_hat_1
+dbpedia:Military_Intelligence_Directorate_(Israel)
+vn.data:Dance_26070110
+dul:event
+
+
+lion is my beloved animal
+fred:lion
+fred:lion
+fred:person_1
+fred:Person
+fred:BelovedAnimal
+fred:Beloved
+fred:Animal
+dul:Quality

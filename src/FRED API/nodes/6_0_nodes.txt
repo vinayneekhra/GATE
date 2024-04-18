@@ -1,0 +1,14 @@
+fred:erase_1
+fred:board_1
+dbpedia:Eraser
+fred:A_man
+fred:Erase
+fred:ChalkBoard
+fred:chalk_1
+fred:Chalk
+quant:a
+dbpedia:Chalk
+fred:Board
+dbpedia:Military_Intelligence_Directorate_(Israel)
+vn.data:Erase_10041100
+dul:Event

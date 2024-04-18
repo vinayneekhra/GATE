@@ -1,0 +1,10 @@
+fred:play_1
+fred:Play
+fred:flute_1
+fred:woman_1
+vn.data:Play_26070110
+dul:Event
+quant:the
+fred:Flute
+quant:a
+fred:Woman

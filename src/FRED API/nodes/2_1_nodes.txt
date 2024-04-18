@@ -1,0 +1,15 @@
+fred:mouse_1
+fred:Mouse
+fred:snake_1
+quant:a
+dbpedia:Mouse
+fred:Feed
+dul:Event
+vn.data:Feed_39070000
+fred:feed_1
+fred:man_1
+dbpedia:Eating
+fred:Snake
+quant:the
+fred:Man
+dbpedia:Human

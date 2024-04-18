@@ -1,0 +1,9 @@
+fred:Peel
+vn.data:Peel_10070000
+dul:Event
+fred:potato_1
+fred:Potato
+quant:a
+fred:woman_1
+fred:Woman
+fred:peel_1

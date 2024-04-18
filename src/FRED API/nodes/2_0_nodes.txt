@@ -1,0 +1,12 @@
+fred:mouse_1
+fred:Mouse
+fred:snake_1
+quant:a
+dbpedia:Mouse
+fred:Feed
+dul:Event
+vn.data:Feed_39070000
+fred:feed_1
+fred:A_man
+fred:Snake
+dbpedia:Military_Intelligence_Directorate_(Israel)

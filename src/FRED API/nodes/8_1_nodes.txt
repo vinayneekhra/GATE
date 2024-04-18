@@ -1,0 +1,16 @@
+fred:playing_1
+fred:StagePlaying
+fred:guitar_1
+fred:Stage
+fred:Playing
+fred:StagePlayingGuitar
+quant:multiple
+fred:PlayingGuitar
+fred:stage_1
+fred:man_1
+3
+fred:Man
+quant:three
+fred:Guitar
+dul:hasDataValue
+owl:DataTypeProperty

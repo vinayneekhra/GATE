@@ -1,0 +1,10 @@
+fred:ride_1
+dbpedia:Equestrianism
+fred:Ride
+fred:horse_1
+fred:child_1
+dul:Event
+vn.data:Ride_51042000
+fred:Horse
+quant:a
+fred:Child

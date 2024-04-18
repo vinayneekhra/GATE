@@ -1,0 +1,217 @@
+digraph edutella {
+	graph [_draw_="c 9 -#fffffe00 C 7 -#ffffff P 4 0 0 0 210 1182.5 210 1182.5 0 ",
+		bb="0,0,1182.5,210",
+		xdotversion=1.7
+	];
+	node [label="\N"];
+	"fred:guitar_1"	 [_ldraw_="I 77.5 95 19 19 45 -/kore/kore.launchers.standalone/img/rombo.png F 14 11 -Times-Roman c 7 -#000000 T 100.5 100.8 -1 94 13 -fred:\
+guitar_1 S 5 -solid c 7 -#000000 p 4 74 92.5 74 117.5 197 117.5 197 92.5 ",
+		height=0.5,
+		label=<<table BORDER="1" CELLBORDER="0" CELLSPACING="0"><tr><td><img scale="true" src="/kore/kore.launchers.standalone/img/rombo.png" /></td><td port="label">fred:guitar_1</td></tr></table>>,
+		margin=0,
+		pos="135.5,105",
+		shape=none,
+		width=1.7083];
+	"quant:multiple"	 [_ldraw_="I 185.5 8 19 19 45 -/kore/kore.launchers.standalone/img/rombo.png F 14 11 -Times-Roman c 7 -#000000 T 208.5 13.8 -1 106 14 -quant:\
+multiple S 5 -solid c 7 -#000000 p 4 182 5.5 182 30.5 317 30.5 317 5.5 ",
+		height=0.5,
+		label=<<table BORDER="1" CELLBORDER="0" CELLSPACING="0"><tr><td><img scale="true" src="/kore/kore.launchers.standalone/img/rombo.png" /></td><td port="label">quant:multiple</td></tr></table>>,
+		margin=0,
+		pos="249.5,18",
+		shape=none,
+		width=1.875];
+	"fred:guitar_1":label -> "quant:multiple":label	 [_draw_="c 7 -#000000 B 7 147.5 93 147.5 75.66 137.47 67.38 148.5 54 178.66 17.41 249.25 70.75 260.09 39.01 ",
+		_hdraw_="S 5 -solid c 7 -#000000 C 7 -#000000 P 3 263.57 39.39 261.5 29 256.64 38.41 ",
+		_ldraw_="F 14 11 -Times-Roman c 7 -#000000 T 221 57.8 0 145 19 -quant:hasQuantifier ",
+		label="quant:hasQuantifier",
+		lp="221,61.5",
+		pos="e,261.5,29 147.5,93 147.5,75.661 137.47,67.38 148.5,54 178.66,17.409 249.25,70.75 260.09,39.009"];
+	"fred:Guitar"	 [_ldraw_="I 3.55 10 18.91 16 46 -/kore/kore.launchers.standalone/img/circle.png F 14 11 -Times-Roman c 7 -#000000 T 26.5 14.3 -1 80 11 -fred:\
+Guitar S 5 -solid c 7 -#000000 p 4 0 7 0 29 109 29 109 7 ",
+		height=0.5,
+		label=<<table BORDER="1" CELLBORDER="0" CELLSPACING="0"><tr><td><img scale="true" src="/kore/kore.launchers.standalone/img/circle.png" /></td><td port="label">fred:Guitar</td></tr></table>>,
+		margin=0,
+		pos="54.5,18",
+		shape=none,
+		width=1.5139];
+	"fred:guitar_1":label -> "fred:Guitar":label	 [_draw_="c 7 -#000000 B 7 147.5 93 147.5 55.88 90.02 98.51 67.5 69 58.69 57.45 63.29 49.85 65.52 38.01 ",
+		_hdraw_="S 5 -solid c 7 -#000000 C 7 -#000000 P 3 69.01 38.29 66.5 28 62.04 37.61 ",
+		_ldraw_="F 14 11 -Times-Roman c 7 -#000000 T 96.5 57.8 0 58 8 -rdf:type ",
+		href="http://www.essepuntato.it/lode/http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+		label="rdf:type",
+		lp="96.5,61.5",
+		pos="e,66.5,28 147.5,93 147.5,55.879 90.02,98.51 67.5,69 58.688,57.453 63.285,49.848 65.516,38.012",
+		target=_blank,
+		tooltip="rdf:type"];
+	"fred:play_1"	 [_ldraw_="I 493.5 182 19 19 45 -/kore/kore.launchers.standalone/img/rombo.png F 14 11 -Times-Roman c 7 -#000000 T 516.5 187.8 -1 81 11 -fred:\
+play_1 S 5 -solid c 7 -#000000 p 4 490.5 179.5 490.5 204.5 600.5 204.5 600.5 179.5 ",
+		height=0.5,
+		label=<<table BORDER="1" CELLBORDER="0" CELLSPACING="0"><tr><td><img scale="true" src="/kore/kore.launchers.standalone/img/rombo.png" /></td><td port="label">fred:play_1</td></tr></table>>,
+		margin=0,
+		pos="545.5,192",
+		shape=none,
+		width=1.5278];
+	"fred:play_1":label -> "fred:guitar_1":label	 [_draw_="c 7 -#000000 B 4 557.5 180 557.5 177.68 264.39 117.41 206.39 105.89 ",
+		_hdraw_="S 5 -solid c 7 -#000000 C 7 -#000000 P 3 206.98 102.44 196.5 104 205.66 109.32 ",
+		_ldraw_="F 14 11 -Times-Roman c 7 -#000000 T 493 144.8 0 103 13 -vn.role:Theme ",
+		href="http://www.essepuntato.it/lode/http://www.ontologydesignpatterns.org/ont/vn/abox/role/vnrole.owl#Theme",
+		label="vn.role:Theme",
+		lp="493,148.5",
+		pos="e,196.5,104 557.5,180 557.5,177.68 264.39,117.41 206.39,105.89",
+		target=_blank,
+		tooltip="vn.role:Theme"];
+	"fred:man_1"	 [_ldraw_="I 493.5 95 19 19 45 -/kore/kore.launchers.standalone/img/rombo.png F 14 11 -Times-Roman c 7 -#000000 T 516.5 100.8 -1 82 10 -fred:\
+man_1 S 5 -solid c 7 -#000000 p 4 490 92.5 490 117.5 601 117.5 601 92.5 ",
+		height=0.5,
+		label=<<table BORDER="1" CELLBORDER="0" CELLSPACING="0"><tr><td><img scale="true" src="/kore/kore.launchers.standalone/img/rombo.png" /></td><td port="label">fred:man_1</td></tr></table>>,
+		margin=0,
+		pos="545.5,105",
+		shape=none,
+		width=1.5417];
+	"fred:play_1":label -> "fred:man_1":label	 [_draw_="c 7 -#000000 B 4 557.5 180 557.5 155.22 557.5 146.63 557.5 126.03 ",
+		_hdraw_="S 5 -solid c 7 -#000000 C 7 -#000000 P 3 561 126 557.5 116 554 126 ",
+		_ldraw_="F 14 11 -Times-Roman c 7 -#000000 T 606 144.8 0 97 13 -vn.role:Agent ",
+		href="http://www.essepuntato.it/lode/http://www.ontologydesignpatterns.org/ont/vn/abox/role/vnrole.owl#Agent",
+		label="vn.role:Agent",
+		lp="606,148.5",
+		pos="e,557.5,116 557.5,180 557.5,155.22 557.5,146.63 557.5,126.03",
+		target=_blank,
+		tooltip="vn.role:Agent"];
+	"fred:Play"	 [_ldraw_="I 851.55 97 18.91 16 46 -/kore/kore.launchers.standalone/img/circle.png F 14 11 -Times-Roman c 7 -#000000 T 874.5 101.3 -1 65 9 \
+-fred:Play S 5 -solid c 7 -#000000 p 4 848.5 94 848.5 116 942.5 116 942.5 94 ",
+		height=0.5,
+		label=<<table BORDER="1" CELLBORDER="0" CELLSPACING="0"><tr><td><img scale="true" src="/kore/kore.launchers.standalone/img/circle.png" /></td><td port="label">fred:Play</td></tr></table>>,
+		margin=0,
+		pos="895.5,105",
+		shape=none,
+		width=1.3056];
+	"fred:play_1":label -> "fred:Play":label	 [_draw_="c 7 -#000000 B 4 599.5 191 666.56 191 884.7 186.02 905.85 124.87 ",
+		_hdraw_="S 5 -solid c 7 -#000000 C 7 -#000000 P 3 909.3 125.44 907.5 115 902.4 124.29 ",
+		_ldraw_="F 14 11 -Times-Roman c 7 -#000000 T 919.5 144.8 0 58 8 -rdf:type ",
+		href="http://www.essepuntato.it/lode/http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+		label="rdf:type",
+		lp="919.5,148.5",
+		pos="e,907.5,115 599.5,191 666.56,191 884.7,186.02 905.85,124.87",
+		target=_blank,
+		tooltip="rdf:type"];
+	"fred:man_1":label -> "quant:multiple":label	 [_draw_="c 7 -#000000 B 7 557.5 93 557.5 42.72 371.3 100.98 332.5 69 317.63 56.75 331.65 31 325.73 21.05 ",
+		_hdraw_="S 5 -solid c 7 -#000000 C 7 -#000000 P 3 327.06 17.81 316.5 17 324.25 24.22 ",
+		_ldraw_="F 14 11 -Times-Roman c 7 -#000000 T 405 57.8 0 145 19 -quant:hasQuantifier ",
+		label="quant:hasQuantifier",
+		lp="405,61.5",
+		pos="e,316.5,17 557.5,93 557.5,42.716 371.3,100.98 332.5,69 317.63,56.745 331.65,31.001 325.73,21.048"];
+	3	 [_ldraw_="I 447.5 7 27 21 47 -/kore/kore.launchers.standalone/img/literal.png F 14 11 -Times-Roman c 7 -#000000 T 478.5 13.8 -1 10 1 -3 S \
+5 -solid c 7 -#000000 p 4 444 4.5 444 31.5 491 31.5 491 4.5 ",
+		height=0.5,
+		label=<<table BORDER="1" CELLBORDER="0" CELLSPACING="0"><tr><td><img scale="true" src="/kore/kore.launchers.standalone/img/literal.png" /></td><td port="label">3</td></tr></table>>,
+		margin=0,
+		pos="467.5,18",
+		shape=none,
+		width=0.75];
+	"fred:man_1":label -> 3:label	 [_draw_="c 7 -#000000 B 10 557.5 93 557.5 58 503.13 97.27 482.5 69 478.57 63.62 482.36 60.67 482.5 54 482.63 47.66 482.96 44.15 483.2 40.11 ",
+		_hdraw_="S 5 -solid c 7 -#000000 C 7 -#000000 P 3 486.71 40.1 483.5 30 479.71 39.89 ",
+		_ldraw_="F 14 11 -Times-Roman c 7 -#000000 T 545 57.8 0 125 16 -dul:hasDataValue ",
+		href="http://www.essepuntato.it/lode/owlapi/http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasDataValue",
+		label="dul:hasDataValue",
+		lp="545,61.5",
+		pos="e,483.5,30 557.5,93 557.5,58.002 503.13,97.268 482.5,69 478.57,63.615 482.36,60.665 482.5,54 482.63,47.663 482.96,44.154 483.2,40.114",
+		target=_blank,
+		tooltip="dul:hasDataValue"];
+	"fred:Man"	 [_ldraw_="I 554.55 10 18.91 16 46 -/kore/kore.launchers.standalone/img/circle.png F 14 11 -Times-Roman c 7 -#000000 T 577.5 14.3 -1 66 8 -fred:\
+Man S 5 -solid c 7 -#000000 p 4 551 7 551 29 646 29 646 7 ",
+		height=0.5,
+		label=<<table BORDER="1" CELLBORDER="0" CELLSPACING="0"><tr><td><img scale="true" src="/kore/kore.launchers.standalone/img/circle.png" /></td><td port="label">fred:Man</td></tr></table>>,
+		margin=0,
+		pos="598.5,18",
+		shape=none,
+		width=1.3194];
+	"fred:man_1":label -> "fred:Man":label	 [_draw_="c 7 -#000000 B 4 600.5 104 612.23 104 611.74 59 610.96 38.23 ",
+		_hdraw_="S 5 -solid c 7 -#000000 C 7 -#000000 P 3 614.44 37.83 610.5 28 607.45 38.15 ",
+		_ldraw_="F 14 11 -Times-Roman c 7 -#000000 T 640.5 57.8 0 58 8 -rdf:type ",
+		href="http://www.essepuntato.it/lode/http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+		label="rdf:type",
+		lp="640.5,61.5",
+		pos="e,610.5,28 600.5,104 612.23,104 611.74,58.999 610.96,38.229",
+		target=_blank,
+		tooltip="rdf:type"];
+	"quant:three"	 [_ldraw_="I 667.5 8 19 19 45 -/kore/kore.launchers.standalone/img/rombo.png F 14 11 -Times-Roman c 7 -#000000 T 690.5 13.8 -1 85 11 -quant:\
+three S 5 -solid c 7 -#000000 p 4 664.5 5.5 664.5 30.5 778.5 30.5 778.5 5.5 ",
+		height=0.5,
+		label=<<table BORDER="1" CELLBORDER="0" CELLSPACING="0"><tr><td><img scale="true" src="/kore/kore.launchers.standalone/img/rombo.png" /></td><td port="label">quant:three</td></tr></table>>,
+		margin=0,
+		pos="721.5,18",
+		shape=none,
+		width=1.5833];
+	"fred:man_1":label -> "quant:three":label	 [_draw_="c 7 -#000000 B 4 600.5 104 664.78 104 726.62 97.59 732.97 39.24 ",
+		_hdraw_="S 5 -solid c 7 -#000000 C 7 -#000000 P 3 736.47 39.17 733.5 29 729.48 38.8 ",
+		_ldraw_="F 14 11 -Times-Roman c 7 -#000000 T 803 57.8 0 145 19 -quant:hasQuantifier ",
+		label="quant:hasQuantifier",
+		lp="803,61.5",
+		pos="e,733.5,29 600.5,104 664.78,104 726.62,97.595 732.97,39.237"];
+	"vn.data:Play_26070110"	 [_ldraw_="I 799.55 10 18.91 16 46 -/kore/kore.launchers.standalone/img/circle.png F 14 11 -Times-Roman c 7 -#000000 T 822.5 14.3 -1 169 21 \
+-vn.data:Play_26070110 S 5 -solid c 7 -#000000 p 4 796.5 7 796.5 29 994.5 29 994.5 7 ",
+		height=0.5,
+		label=<<table BORDER="1" CELLBORDER="0" CELLSPACING="0"><tr><td><img scale="true" src="/kore/kore.launchers.standalone/img/circle.png" /></td><td port="label">vn.data:Play_26070110</td></tr></table>>,
+		margin=0,
+		pos="895.5,18",
+		shape=none,
+		width=2.75];
+	"fred:Play":label -> "vn.data:Play_26070110":label	 [_draw_="c 7 -#000000 B 4 907.5 95 907.5 68.94 907.5 59.99 907.5 38.21 ",
+		_hdraw_="S 5 -solid c 7 -#000000 C 7 -#000000 P 3 911 38 907.5 28 904 38 ",
+		_ldraw_="F 14 11 -Times-Roman c 7 -#000000 T 979.5 57.8 0 144 19 -owl:equivalentClass ",
+		href="http://www.essepuntato.it/lode/owlapi/http://www.w3.org/2002/07/owl#equivalentClass",
+		label="owl:equivalentClass",
+		lp="979.5,61.5",
+		pos="e,907.5,28 907.5,95 907.5,68.944 907.5,59.988 907.5,38.207",
+		target=_blank,
+		tooltip="owl:equivalentClass"];
+	"dul:Event"	 [_ldraw_="I 1016.55 10 18.91 16 46 -/kore/kore.launchers.standalone/img/circle.png F 14 11 -Times-Roman c 7 -#000000 T 1039.5 14.3 -1 70 9 \
+-dul:Event S 5 -solid c 7 -#000000 p 4 1013 7 1013 29 1112 29 1112 7 ",
+		height=0.5,
+		href="http://www.essepuntato.it/lode/owlapi/http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event",
+		label=<<table BORDER="1" CELLBORDER="0" CELLSPACING="0"><tr><td><img scale="true" src="/kore/kore.launchers.standalone/img/circle.png" /></td><td port="label">dul:Event</td></tr></table>>,
+		margin=0,
+		pos="1062.5,18",
+		shape=none,
+		target=_blank,
+		tooltip="dul:Event",
+		width=1.375];
+	"fred:Play":label -> "dul:Event":label	 [_draw_="c 7 -#000000 B 10 941.5 105 950.88 105 944.76 92.3 952.5 87 989.77 61.5 1015.96 95.54 1052.5 69 1066.23 59.03 1072.24 51.74 1073.95 \
+38.03 ",
+		_hdraw_="S 5 -solid c 7 -#000000 C 7 -#000000 P 3 1077.45 38.18 1074.5 28 1070.46 37.79 ",
+		_ldraw_="F 14 11 -Times-Roman c 7 -#000000 T 1125 57.8 0 115 15 -rdfs:subClassOf ",
+		href="http://www.essepuntato.it/lode/owlapi/http://www.w3.org/2000/01/rdf-schema#subClassOf",
+		label="rdfs:subClassOf",
+		lp="1125,61.5",
+		pos="e,1074.5,28 941.5,105 950.88,105 944.76,92.295 952.5,87 989.77,61.495 1016,95.539 1052.5,69 1066.2,59.03 1072.2,51.743 1074,38.031",
+		target=_blank,
+		tooltip="rdfs:subClassOf"];
+	"dul:hasDataValue"	 [_ldraw_="I 982.5 182 19 19 45 -/kore/kore.launchers.standalone/img/rombo.png F 14 11 -Times-Roman c 7 -#000000 T 1005.5 187.8 -1 125 16 -dul:\
+hasDataValue S 5 -solid c 7 -#000000 p 4 979.5 179.5 979.5 204.5 1133.5 204.5 1133.5 179.5 ",
+		height=0.5,
+		href="http://www.essepuntato.it/lode/owlapi/http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasDataValue",
+		label=<<table BORDER="1" CELLBORDER="0" CELLSPACING="0"><tr><td><img scale="true" src="/kore/kore.launchers.standalone/img/rombo.png" /></td><td port="label">dul:hasDataValue</td></tr></table>>,
+		margin=0,
+		pos="1056.5,192",
+		shape=none,
+		target=_blank,
+		tooltip="dul:hasDataValue",
+		width=2.1389];
+	"owl:DataTypeProperty"	 [_ldraw_="I 964.55 97 18.91 16 46 -/kore/kore.launchers.standalone/img/circle.png F 14 11 -Times-Roman c 7 -#000000 T 987.5 101.3 -1 162 20 \
+-owl:DataTypeProperty S 5 -solid c 7 -#000000 p 4 961 94 961 116 1152 116 1152 94 ",
+		height=0.5,
+		label=<<table BORDER="1" CELLBORDER="0" CELLSPACING="0"><tr><td><img scale="true" src="/kore/kore.launchers.standalone/img/circle.png" /></td><td port="label">owl:DataTypeProperty</td></tr></table>>,
+		margin=0,
+		pos="1056.5,105",
+		shape=none,
+		width=2.6528];
+	"dul:hasDataValue":label -> "owl:DataTypeProperty":label	 [_draw_="c 7 -#000000 B 4 1068.5 180 1068.5 154.84 1068.5 146.11 1068.5 125.18 ",
+		_hdraw_="S 5 -solid c 7 -#000000 C 7 -#000000 P 3 1072 125 1068.5 115 1065 125 ",
+		_ldraw_="F 14 11 -Times-Roman c 7 -#000000 T 1097.5 144.8 0 58 8 -rdf:type ",
+		href="http://www.essepuntato.it/lode/http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+		label="rdf:type",
+		lp="1097.5,148.5",
+		pos="e,1068.5,115 1068.5,180 1068.5,154.84 1068.5,146.11 1068.5,125.18",
+		target=_blank,
+		tooltip="rdf:type"];
+}

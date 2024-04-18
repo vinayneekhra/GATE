@@ -1,0 +1,8 @@
+s2_triples.append(("fred:animal_1"),)
+s2_triples.append(("fred:Kitten"),)
+s2_triples.append(("fred:person_1"),)
+s2_triples.append(("fred:Person"),)
+s2_triples.append(("fred:BelovedAnimal"),)
+s2_triples.append(("fred:Beloved"),)
+s2_triples.append(("fred:Animal"),)
+s2_triples.append(("dul:Quality"),)

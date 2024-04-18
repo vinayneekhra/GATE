@@ -1,0 +1,11 @@
+fred:Carry
+dul:Event
+vn.data:Carry_11040000
+fred:baby_1
+fred:Baby
+fred:woman_1
+fred:Woman
+dbpedia:Woman
+quant:a
+fred:Female
+fred:carry_1

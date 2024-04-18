@@ -1,0 +1,9 @@
+fred:Cut
+vn.data:Cut_21010100
+dul:Event
+fred:cut_1
+fred:onion_1
+fred:A_man
+quant:multiple
+fred:Onion
+dbpedia:Military_Intelligence_Directorate_(Israel)

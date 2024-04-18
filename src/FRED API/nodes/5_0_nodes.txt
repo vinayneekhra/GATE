@@ -1,0 +1,10 @@
+fred:cut_1
+fred:woman_1
+fred:Cut
+fred:onion_1
+quant:a
+fred:Woman
+vn.data:Cut_21010100
+dul:Event
+fred:Onion
+quant:an
